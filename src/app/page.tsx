@@ -10,7 +10,10 @@ export default async function Home() {
 
   return (
     <>
-      <div className=" w-full  h-[670px] flex items-center px-2 sm:px-8 md:px-12 lg:px-28">
+
+    <h1 className="text-center text-6xl font-bold mt-5 underline">JSON Placeholder</h1>
+
+      <div className=" w-full  h-[610px] flex items-center px-2 sm:px-8 md:px-12 lg:px-28">
         <div className="h-[450px] w-full">
           <ul className="space-y-3">
             <li className=" w-full h-16 flex justify-between items-center px-2 rounded bg-[#d5d5ff]">
